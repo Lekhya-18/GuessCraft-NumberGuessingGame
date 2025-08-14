@@ -43,10 +43,10 @@ Perfect for learning **Java fundamentals**, **OOP concepts**, and **game logic i
    ```bash
    git clone https://github.com/your-username/GuessCraft.git
    cd GuessCraft
-2. ## ** Compile and run the game: **
+2. ##  Compile the game: 
    ```bash
       javac GuessCraft.java
-3. ## ** Run: **
+3. ##  Run the game:
    ```bash
       java GuessCraft
 
