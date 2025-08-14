@@ -1,41 +1,52 @@
-🎯 GuessCraft – Number Guessing Game
+# 🎯 GuessCraft – Number Guessing Game  
 
-GuessCraft is a fun and interactive Java-based number guessing game with 3 difficulty levels, hints, and a coin reward system.
+**GuessCraft** is a fun and interactive **Java-based Number Guessing Game** with multiple difficulty levels, a smart hint system, and a coin reward mechanism.  
+Perfect for learning **Java fundamentals**, **OOP concepts**, and **game logic implementation**.  
 
-🕹️ Game Features
+---
 
-3 Levels:
+## 🕹️ Game Features  
 
-Level 1 → Numbers between 1–10, 3 chances, 2 hints.
+- **3 Exciting Levels** 🎯  
+  1️⃣ **Level 1** → Numbers between **1–10**, 3 chances, 2 hints.  
+  2️⃣ **Level 2** → Numbers between **1–100**, 5 chances, 3 hints.  
+  3️⃣ **Level 3** → Numbers between **1–1000**, 8 chances, 4 hints.  
 
-Level 2 → Numbers between 1–100, 5 chances, 3 hints.
+- **💡 Smart Hint System**  
+  - Start with **100 coins**.  
+  - Hints cost coins: **10 coins** for first hint, **20 coins** for second, and so on.  
 
-Level 3 → Numbers between 1–1000, 8 chances, 4 hints.
+- **💰 Coin Rewards**  
+  - Earn coins for every level you complete successfully.  
 
-Hint System:
+---
 
-Players start with 100 coins.
+## 🚀 How to Play
 
-Hints cost coins: 10 coins for first hint, 20 coins for second, etc.
+1️⃣ Run the game in your terminal/IDE.
 
-Coin Rewards:
+2️⃣ Start at Level 1 — each win unlocks the next level automatically.
 
-Coins awarded after completing each level.
+3️⃣ Guess the number within given chances.
 
-🛠️ Technologies Used
+4️⃣ Use hints wisely — they cost coins!
 
-Java (Core)
+5️⃣ Win coins after each level and use them to buy hints in later levels.
 
-Object-Oriented Programming Concepts
+## 🛠️ Tech Stack  
+- **Language**: Java ☕  
 
-🚀 How to Play
+---
 
-1. Run the game in your terminal/IDE.
+## 🚀 How to Play  
+1. **Clone this repository**  
+   ```bash
+   git clone https://github.com/your-username/GuessCraft.git
+   cd GuessCraft
+## ** Compile and run the game: **
 
-2. Select a level.
+1.  javac GuessCraft.java
 
-3. Guess the number within given chances.
+2.  java GuessCraft
 
-4. Use hints wisely — they cost coins!
 
-5. Win coins and progress to higher levels.
