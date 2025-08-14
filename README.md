@@ -44,9 +44,9 @@ Perfect for learning **Java fundamentals**, **OOP concepts**, and **game logic i
    git clone https://github.com/your-username/GuessCraft.git
    cd GuessCraft
 ## ** Compile and run the game: **
-
-1.  javac GuessCraft.java
-
-2.  java GuessCraft
+   ```bash
+      javac GuessCraft.java
+   ```bash
+      java GuessCraft
 
 
