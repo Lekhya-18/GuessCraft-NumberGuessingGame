@@ -5,8 +5,9 @@ class NumberGuessing{
    System.out.println("📜 INSTRUCTIONS 🎯 ");
    System.out.println("1️⃣ Objective \n  🎯 Guess the number ");
    System.out.println("2️⃣ Levels \n  🎮 Three levels of difficulty: Easy, Medium, Hard.");
-   System.out.println("3️⃣ Hints \n  💡 Each level will provide hints but you should buy them & According to the level hints count and coins will increase.");
-   System.out.println("4️⃣ Starting of the game we will provide u 100 coins.\n  💰 You can use these coins to buy hints.");
+   System.out.println("3️⃣ Hints \n  💡 Each level will provide hints but you should buy them.");
+   System.out.println("4️⃣ 💰 The cost of hints & no.of attempts changes based on the level.🪙 You will be told the cost & no.of attempts before each level begins.");
+   System.out.println("5️⃣ Starting of the game we will provide u 100 coins.\n  💰 You can use these coins to buy hints.");
 
    System.out.printf(" Before starting the game, please enter your name 🔥: ");
    Scanner scanner = new Scanner(System.in);
