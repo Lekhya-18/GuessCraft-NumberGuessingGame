@@ -1,5 +1,12 @@
 import java.util.*;
 import java.io.*;
+class Level1{
+  public void startGame(String playerName){
+    System.out.println("In this level, you will have 3 attempts to guess the number between 1 and 10. \n You have 2 hints and u can buy hints for 10 coins each.💡");
+    System.out.println("You will start with 100 coins. If you win this level, you will earn 50 coins! 🍀");
+    System.out.println("Good luck, " + playerName + "! Let's see if you can guess the number! 🎯");
+}
+
 class NumberGuessing{
   public static void main(String[] a){
    System.out.println("🎉Welcome to the Number Guessing Game! 🎯");
