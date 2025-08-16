@@ -16,7 +16,7 @@ class NumberGuessing{
    if(ready.equalsIgnoreCase("yes")){
        System.out.println("🎉 Great! Let's start the game.");
    } else {
-       System.out.println("No problem! Come back when you're ready.");
+       System.out.println("No problem! Come back when you're ready 🎮. ");
        return;
    }
   System.out.println("📜 Read Game Instructions Carefully 📜");
@@ -29,10 +29,7 @@ class NumberGuessing{
        System.out.println("3️⃣ Hints \n  💡 Each level will provide hints but you should buy them.");
        System.out.println("4️⃣ 💰 The cost of hints & no.of attempts changes based on the level.🪙 You will be told the cost & no.of attempts before each level begins.");
        System.out.println("5️⃣ Starting of the game we will provide u 100 coins.\n  💰 You can use these coins to buy hints.");
-   }else{
-       System.out.println("Enter \"Instructions\" to know the Instructions of the game.");
    }
-
    System.out.printf(" Before starting the game, please enter your name 🔥: ");
    Scanner scanner = new Scanner(System.in);
    String name = scanner.nextLine();
