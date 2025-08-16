@@ -9,13 +9,29 @@ class Level1{
 
 class NumberGuessing{
   public static void main(String[] a){
+   Scanner scanner = new Scanner(System.in);
    System.out.println("🎉Welcome to the Number Guessing Game! 🎯");
-   System.out.println("📜 INSTRUCTIONS 🎯 ");
-   System.out.println("1️⃣ Objective \n  🎯 Guess the number within given attempts.");
-   System.out.println("2️⃣ Levels \n  🎮 Three levels of difficulty: Easy, Medium, Hard.");
-   System.out.println("3️⃣ Hints \n  💡 Each level will provide hints but you should buy them.");
-   System.out.println("4️⃣ 💰 The cost of hints & no.of attempts changes based on the level.\n🪙 You will be told the cost & no.of attempts before each level begins.");
-   System.out.println("5️⃣ 💵Starting of the game we will provide you 100 coins.\n  💰 You can use these coins to buy hints.");
+   System.out.println("Are u ready to play?(YES/NO)");
+   String ready = scanner.nextLine();
+   if(ready.equalsIgnoreCase("yes")){
+       System.out.println("🎉 Great! Let's start the game.");
+   } else {
+       System.out.println("No problem! Come back when you're ready.");
+       return;
+   }
+  System.out.println("📜 Read Game Instructions Carefully 📜");
+  System.out.println("Enter \"Instructions\" to know the Instructions of the game 🎮: ");
+   String rules = scanner.nextLine();
+   if(rules.equalsIgnoreCase("Instructions")){
+       System.out.println("📜 INSTRUCTIONS 🎯 ");
+       System.out.println("1️⃣ Objective \n  🎯 Guess the number within given attempts.");
+       System.out.println("2️⃣ Levels \n  🎮 Three levels of difficulty: Easy, Medium, Hard.");
+       System.out.println("3️⃣ Hints \n  💡 Each level will provide hints but you should buy them.");
+       System.out.println("4️⃣ 💰 The cost of hints & no.of attempts changes based on the level.🪙 You will be told the cost & no.of attempts before each level begins.");
+       System.out.println("5️⃣ Starting of the game we will provide u 100 coins.\n  💰 You can use these coins to buy hints.");
+   }else{
+       System.out.println("Enter \"Instructions\" to know the Instructions of the game.");
+   }
 
    System.out.printf(" Before starting the game, please enter your name 🔥: ");
    Scanner scanner = new Scanner(System.in);
