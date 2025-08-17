@@ -15,7 +15,7 @@ class Level2{
     System.out.println("In this level, you will have 3 attempts to guess the number between 1 and 10. \n You have 2 hints and u can buy hints for 10 coins each.💡");
     System.out.println("You will start with 100 coins. If you win this level, you will earn 50 coins! 🍀");
     System.out.println("Good luck, " + playerName + "! Let's see if you can guess the number! 🎯");
-    int number = (int) (Math.random()*10) + 1;
+    int number = (int) (Math.random()*100) + 1;
     int attempts = 5;
     int hints = 3;
 }
@@ -24,9 +24,9 @@ class Level2{
     System.out.println("In this level, you will have 3 attempts to guess the number between 1 and 10. \n You have 2 hints and u can buy hints for 10 coins each.💡");
     System.out.println("You will start with 100 coins. If you win this level, you will earn 50 coins! 🍀");
     System.out.println("Good luck, " + playerName + "! Let's see if you can guess the number! 🎯");
-    int number = (int) (Math.random()*10) + 1;
+    int number = (int) (Math.random()*1000) + 1;
     int attempts = 10;
-    int hints = 5;
+    int hints = 4;
 }
 
 class NumberGuessing{
