@@ -9,8 +9,10 @@ class Level1{
     int number = (int) (Math.random()*10) + 1;
     int attempts = 3;
     int hints = 2;
-    while(attempts--){
-      
+    while(attempts>0){
+      if(){}
+      else{}
+      attempts--;
     }
 }
 }
