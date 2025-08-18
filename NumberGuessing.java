@@ -9,6 +9,10 @@ class Level1{
     int number = (int) (Math.random()*10) + 1;
     int attempts = 3;
     int hints = 2;
+    while(attempts--){
+      
+    }
+}
 }
 class Level2{
   public void startGame(String playerName){
@@ -19,6 +23,7 @@ class Level2{
     int attempts = 5;
     int hints = 3;
 }
+}
   class Level3{
   public void startGame(String playerName){
     System.out.println("In this level, you will have 3 attempts to guess the number between 1 and 10. \n You have 2 hints and u can buy hints for 10 coins each.💡");
@@ -28,7 +33,7 @@ class Level2{
     int attempts = 10;
     int hints = 4;
 }
-
+}
 class NumberGuessing{
   public static void main(String[] a){
    Scanner scanner = new Scanner(System.in);
