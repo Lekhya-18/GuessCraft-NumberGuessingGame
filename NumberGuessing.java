@@ -3,6 +3,7 @@ import java.io.*;
 import java.lang.*;
 class Level1{
   public void startGame(String playerName){
+    Scanner sc = new Scanner(System.in);
     System.out.println("In this level, you will have 3 attempts to guess the number between 1 and 10. \n You have 2 hints and u can buy hints for 10 coins each.💡");
     System.out.println("You will start with 100 coins. If you win this level, you will earn 50 coins! 🍀");
     System.out.println("Good luck, " + playerName + "! Let's see if you can guess the number! 🎯");
@@ -10,7 +11,14 @@ class Level1{
     int attempts = 3;
     int hints = 2;
     while(attempts>0){
-      if(){}
+      System.out.println("You have " + attempts + " attempts left and " + coins + " coins.");
+      System.out.println("Enter Your guess: ");      
+      int quess = sc.nextInt();
+      if(guess==number){
+        System.out.println("Congratulations "+  playerName +"! You guessed the correct number.🎉");
+        System.out.println("You've earned 50 coins! 💰");
+        break;
+      }
       else{}
       attempts--;
     }
