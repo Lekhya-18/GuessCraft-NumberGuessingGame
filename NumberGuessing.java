@@ -22,6 +22,7 @@ class Level1{
       else{}
       attempts--;
     }
+    if(attempts==0){}
 }
 }
 class Level2{
