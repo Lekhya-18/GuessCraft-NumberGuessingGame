@@ -24,6 +24,11 @@ class Level2{
     int number = (int) (Math.random()*100) + 1;
     int attempts = 5;
     int hints = 3;
+    while(attempts>0){
+      if(){}
+      else{}
+      attempts--;
+    }
 }
 }
   class Level3{
@@ -34,6 +39,11 @@ class Level2{
     int number = (int) (Math.random()*1000) + 1;
     int attempts = 10;
     int hints = 4;
+    while(attempts>0){
+      if(){}
+      else{}
+      attempts--;
+    }
 }
 }
 class NumberGuessing{
