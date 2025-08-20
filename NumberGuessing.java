@@ -33,11 +33,20 @@ class Level2{
     int number = (int) (Math.random()*100) + 1;
     int attempts = 5;
     int hints = 3;
-    while(attempts>0){
-      if(){}
+   while(attempts>0){
+      System.out.println("You have " + attempts + " attempts left and " + coins + " coins.");
+      System.out.println("Enter Your guess: ");      
+      int quess = sc.nextInt();
+      if(guess==number){
+        System.out.println("Congratulations "+  playerName +"! You guessed the correct number.🎉");
+        System.out.println("You've earned 50 coins! 💰");
+        break;
+      }
       else{}
       attempts--;
     }
+    if(attempts==0){}
+
 }
 }
   class Level3{
@@ -49,10 +58,18 @@ class Level2{
     int attempts = 10;
     int hints = 4;
     while(attempts>0){
-      if(){}
+      System.out.println("You have " + attempts + " attempts left and " + coins + " coins.");
+      System.out.println("Enter Your guess: ");      
+      int quess = sc.nextInt();
+      if(guess==number){
+        System.out.println("Congratulations "+  playerName +"! You guessed the correct number.🎉");
+        System.out.println("You've earned 50 coins! 💰");
+        break;
+      }
       else{}
       attempts--;
     }
+    if(attempts==0){}
 }
 }
 class NumberGuessing{
