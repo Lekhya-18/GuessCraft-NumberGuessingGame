@@ -19,12 +19,31 @@ class Level1{
         System.out.println("You've earned 50 coins! 💰");
         break;
       }
-      else{}
-      attempts--;
+      else{
+            attempts--;
+            coins -= 10;
+            System.out.println("Wrong guess! You have " + attempts + " attempts left.");
+            if (hintsAvailable > 0) {
+                System.out.print("Do you want to buy a hint for 10 coins? (yes/no): ");
+                String buyHint = scanner.next();
+                if (buyHint.equalsIgnoreCase("yes") && coins >= 10) {
+                    coins -= 10;
+                    hintsAvailable--;
+                    //1st hint
+                    if(hintsAvailable == 1) {
+                        System.out.println("Hint1: The number is " + (numberToGuess % 2 == 0 ? "even" : "odd") + ".");
+                    }
+                    if(hintsAvailable == 0) {
+                        System.out.println("Hint2: The number is " + (numberToGuess > 5 ? "greater than 5" : "less than or equal to 5") + ".");
+                    }
+             }
+          }
+      }
+    if(attempts==0){
+      System.out.println("Sorry " + playerName + ", you've run out of attempts! The number was " + numberToGuess + ".");
     }
-    if(attempts==0){}
 }
-}
+
 class Level2{
   public void startGame(String playerName){
     System.out.println("In this level, you will have 5 attempts to guess the number between 1 and 100. \n You have 4 hints and u can buy hints for 10 coins each.💡");
