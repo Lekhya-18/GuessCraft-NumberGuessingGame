@@ -21,7 +21,6 @@ class Level1{
       }
       else{
             attempts--;
-            coins -= 10;
             System.out.println("Wrong guess! You have " + attempts + " attempts left.");
             if (hintsAvailable > 0) {
                 System.out.print("Do you want to buy a hint for 10 coins? (yes/no): ");
@@ -62,7 +61,7 @@ class Level2{
         System.out.println("You've earned 50 coins! 💰");
         break;
       }
-      else{}
+      else{
       attempts--;
     }
     if(attempts==0){
@@ -88,7 +87,7 @@ class Level2{
         System.out.println("You've earned 50 coins! 💰");
         break;
       }
-      else{}
+      else{
       attempts--;
     }
     if(attempts==0){
