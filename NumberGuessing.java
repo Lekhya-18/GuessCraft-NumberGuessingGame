@@ -64,7 +64,9 @@ class Level2{
       else{}
       attempts--;
     }
-    if(attempts==0){}
+    if(attempts==0){
+      System.out.println("Sorry " + playerName + ", you've run out of attempts! The number was " + numberToGuess + ".");
+    }
 
 }
 }
@@ -88,7 +90,9 @@ class Level2{
       else{}
       attempts--;
     }
-    if(attempts==0){}
+    if(attempts==0){
+      System.out.println("Sorry " + playerName + ", you've run out of attempts! The number was " + numberToGuess + ".");
+    }
 }
 }
 class NumberGuessing{
@@ -121,6 +125,5 @@ class NumberGuessing{
    System.out.println("\n\n LEVEL 1 🎮 ");
    Level1 l1 = new Level1();
    l1.startGame(name);
-
   }
  }
