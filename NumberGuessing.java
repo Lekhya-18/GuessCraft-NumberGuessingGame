@@ -42,6 +42,7 @@ class Level1{
     if(attempts==0){
       System.out.println("Sorry " + playerName + ", you've run out of attempts! The number was " + numberToGuess + ".");
     }
+      System.out.println("coins:"+coins);
 }
 
 class Level2{
