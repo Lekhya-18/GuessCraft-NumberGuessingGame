@@ -46,8 +46,8 @@ class Level1{
 
 class Level2{
   public void startGame(String playerName){
-    System.out.println("In this level, you will have 5 attempts to guess the number between 1 and 100. \n You have 4 hints and u can buy hints for 10 coins each.💡");
-    System.out.println("If you win this level, you will earn 50 coins! 🍀");
+    System.out.println("1️⃣ In this level, you will have 5 attempts to guess the number between 1 and 100. \n You have 4 hints and u can buy hints for 10 coins each.💡");
+    System.out.println("3️⃣If you win this level, you will earn 50 coins! 🍀");
     System.out.println("Good luck, " + playerName + "! Let's see if you can guess the number! 🎯");
     int number = (int) (Math.random()*100) + 1;
     int attempts = 5;
@@ -72,7 +72,7 @@ class Level2{
 }
   class Level3{
   public void startGame(String playerName){
-    System.out.println("In this level, you will have 10 attempts to guess the number between 1 and 1000. \n You have 5 hints and u can buy hints for 10 coins each.💡");
+    System.out.println("In this level, you will have 10 attempts to guess the number between 1 and 1000."+"\n2️⃣ You have 5 hints and u can buy hints for 10 coins each.💡");
     System.out.println("If you win this level, you will earn 500 coins! 🍀");
     System.out.println("Good luck, " + playerName + "! Let's see if you can guess the number! 🎯");
     int number = (int) (Math.random()*1000) + 1;
