@@ -32,6 +32,7 @@ class Level1{
                     if(hintsAvailable == 1) {
                         System.out.println("Hint1: The number is " + (numberToGuess % 2 == 0 ? "even" : "odd") + ".");
                     }
+                  //2nd hint
                     if(hintsAvailable == 0) {
                         System.out.println("Hint2: The number is " + (numberToGuess > 5 ? "greater than 5" : "less than or equal to 5") + ".");
                     }
